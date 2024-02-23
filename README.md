@@ -6,7 +6,7 @@ It is  game where you choose the range of the numbers to guess from, it chooses 
 
 I made this in order to try programming in Java and do so in a fun way.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/gLBfvMCzOuo)
 
 # Development Environment
 

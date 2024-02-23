@@ -100,7 +100,7 @@ public class NumberGuesser {
             System.out.println("You guessed the right number in " + guess + " tries!");
         }
 
-        //Adds to teh score board so user can check after
+        //Adds to the score board so user can check after
         scoreBoard.add(guess);
         System.out.println(" ");
 
