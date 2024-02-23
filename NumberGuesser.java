@@ -23,22 +23,22 @@ public class NumberGuesser {
         //The option sin the menu when you start the program
         System.out.println("--------------------");
         //play the game
-        System.out.println("1) Play Game");
+        System.out.println("1: Play Game");
         //score board for the games played
-        System.out.println("2) Score Board");
+        System.out.println("2: Score Board");
         //Exit the program
-        System.out.println("3) Exit");
+        System.out.println("3: Exit");
         System.out.println("--------------------");
 
         //Question for the User input on menu
         try {
-            System.out.print("What would you like to do? ");
+            System.out.print("What option would you like to choose? ");
             int menuOption = input.nextInt();
 
             switch (menuOption) {
                 case 1:
                 //choose how big you want the game to be
-                    System.out.print("\n"+"What would you like the range of the game to be? ");
+                    System.out.print("\n"+"What would you like the range for this game to be? ");
                     int numberRange = input.nextInt();
 
                     int randomNumber = methodChange.randomNumber(numberRange);
@@ -55,7 +55,7 @@ public class NumberGuesser {
                     break;
                 default:
                 //message for invalid option given
-                    throw new InputMismatchException("Invalid entry. Please Try again");
+                    throw new InputMismatchException("Invalid Option. Please Choose again");
             }
         }catch(InputMismatchException e){
             System.err.println("\n"+e.getMessage() +"\n");
@@ -95,9 +95,9 @@ public class NumberGuesser {
 
         //Message for getting number correct for if 1 try or multiple
         if (guess == 1) {
-            System.out.println("You answered right in " + guess + " try!");
+            System.out.println("You guessed the right number in " + guess + " try!");
         } else {
-            System.out.println("You answered right in " + guess + " tries!");
+            System.out.println("You guessed the right number in " + guess + " tries!");
         }
 
         //Adds to teh score board so user can check after
