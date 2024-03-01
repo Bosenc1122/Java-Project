@@ -20,9 +20,8 @@ I developed this using Java and the included libraries in Visual studio code.
 - [Beginners Book](https://beginnersbook.com/java-collections-tutorials/)
 
 # Future Work
+Items I want to add in the future
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Item 1 Make it so that you only have a limited number of guesses before the game resets
+- Item 2 Have a 2 player mode, each are trying to guess the same number
+- Item 3 Have an option to guess multiple numbers in one round
